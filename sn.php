@@ -1,8 +1,2 @@
-<?php
-
-print 'Hello';
-print 'Sonu';
-print 'Welcome To';
-print 'Emcode';
-
-?>
+FROM hshar/webapp
+ADD ./index.html /var/www/html
